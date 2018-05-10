@@ -1,0 +1,81 @@
+{
+  "author": {
+    "name": "legion"
+  },
+  "bugs": {
+    "url": "https://github.com/liangwenzhong/spider-sequelize-oracle/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "lihaolin",
+      "email": "lihl@legion-tech.net"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "~2.9.24",
+    "deasync": "^0.1.9",
+    "depd": "^1.0.1",
+    "dottie": "^0.3.1",
+    "generic-pool": "2.2.0",
+    "inflection": "^1.6.0",
+    "lodash": "^3.9.3",
+    "moment": "^2.9.0",
+    "moment-timezone": "^0.4.0",
+    "node-uuid": "~1.4.1",
+    "shimmer": "1.0.0",
+    "toposort-class": "~0.3.0",
+    "validator": "^3.34.0"
+  },
+  "deprecated": false,
+  "description": "Multi dialect ORM for Node.JS/io.js",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "chai-as-promised": "^4.3.0",
+    "chai-datetime": "~1.3.0",
+    "chai-spies": "~0.5.1",
+    "coffee-script": "~1.9.1",
+    "commander": "^2.6.0",
+    "continuation-local-storage": "^3.1.4",
+    "dox": "0.7.1",
+    "git": "^0.1.5",
+    "istanbul": "~0.3.0",
+    "jshint": ">=2.4.2",
+    "lcov-result-merger": "~1.0.0",
+    "mocha": "^2.2.1",
+    "mysql": "~2.6.2",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0",
+    "sqlite3": "^3.0.6",
+    "tedious": "^1.7.0",
+    "watchr": "~2.4.11"
+  },
+  "engines": {
+    "node": ">=0.6.21"
+  },
+  "homepage": "https://github.com/liangwenzhong/spider-sequelize-oracle",
+  "keywords": [
+    "mysql",
+    "sqlite",
+    "postgresql",
+    "postgres",
+    "mssql",
+    "orm",
+    "nodejs",
+    "object relational mapper"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "spider-sequelize-oracle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangwenzhong/spider-sequelize-oracle.git"
+  },
+  "scripts": {
+    "build-docker": "sudo docker-compose build",
+    "docs": "node docs/docs-generator.js",
+    "test": "make all",
+    "test-docker": "sudo docker-compose run sequelize /bin/sh -c \"make all\""
+  },
+  "version": "1.0.0"
+}
