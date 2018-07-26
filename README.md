@@ -1,4 +1,4 @@
-**Cu8-sequelize-oracle**
+**sequelize-oracle**
 ===================
 
 3===> New Feature - CLOB auto loading 
