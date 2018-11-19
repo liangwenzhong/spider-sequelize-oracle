@@ -8,7 +8,7 @@ Hey! I'm Bobolcaca, this project fork from cu8-sequelize-oracle. We just fixed s
  - fixed:
   - After setting 'quoteIdentifiers' as false. Uppercase column name in oracle makes programer get results with uppercase column name. We fixed it into what you define it.
   - DataTypes.NUMBER OR DataTypes.DECIMAL CANNOT set precision and scale
-
+  - make "auto_increment" just work when the "auto_increment" columns' value undefined
 ***_Change logs_***
 
  
