@@ -11,6 +11,9 @@ Hey! I'm Bobolcaca, this project fork from cu8-sequelize-oracle. We just fixed s
   - make "auto_increment" just work when the "auto_increment" columns' value undefined.
   - provide a sequelize option named "maxRows" when defining sequelize. The priority of this option is maxRows (from query) > maxRows (from define) > default (99999)
   - fix TEXT(CLOB) warning ORA-01704 if you send the string literal over 4000
+
+  ######1.0.7
+  - fixed oracle's pool options do not word when creating pool. the attributes are the same as node-oracledb. You can read detail at "https://github.com/oracle/node-oracledb/blob/master/doc/api.md#-3311-createpool-parameters-and-attributes". The attributes are under #3.3.1.1
 ***_Change logs_***
 
  
