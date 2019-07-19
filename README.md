@@ -14,6 +14,9 @@ Hey! I'm Bobolcaca, this project fork from cu8-sequelize-oracle. We just fixed s
 
   ######1.0.7
   - fixed oracle's pool options do not word when creating pool. the attributes are the same as node-oracledb. You can read detail at "https://github.com/oracle/node-oracledb/blob/master/doc/api.md#-3311-createpool-parameters-and-attributes". The attributes are under #3.3.1.1
+
+  ######1.0.8
+  - fixed option "unique" when defining table model.
 ***_Change logs_***
 
  
