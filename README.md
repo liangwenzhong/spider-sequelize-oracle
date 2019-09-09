@@ -17,6 +17,9 @@ Hey! I'm Bobolcaca, this project fork from cu8-sequelize-oracle. We just fixed s
 
   ######1.0.8
   - fixed option "unique" when defining table model.
+
+  ######1.0.9
+  - fixed upsert function, but we are NOT support upsert options now, maybe later we will fix it or not :) .
 ***_Change logs_***
 
  
