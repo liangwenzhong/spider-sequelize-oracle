@@ -5,6 +5,9 @@ Hey! I'm Bobolcaca, this project fork from cu8-sequelize-oracle. We just fixed s
 
 > **Note:**
 
+  ######1.1.2
+  - fix the bug of 1.1.1 about option "alter".
+
   ######1.1.1
   - provide a sequelize option named "alter" when defining sequlize (options.define.alter). When alter is set 'true', sequelize will auto add the new columns which were not exist in database but in code.
 
